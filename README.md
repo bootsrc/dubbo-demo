@@ -4,9 +4,14 @@
 
 答案：maven下载了dubbo后，在idea里可以直接看到dubbo-2.7.1.jar里的META-INF/assembly/bin下有6个脚本，包括shell和windows下的batch脚本。
 如下图 
+
+<br/><br/>
+
 ![](/doc/img/shell.png)
 
 我们可以自己把这些脚本拷贝到dubbo-demo-provider/src/main/resources/assembly/bin下
+
+<br/>
 
 ## 部署
 
