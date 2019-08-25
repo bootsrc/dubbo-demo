@@ -22,3 +22,5 @@ mvn clean package -Denv=dev
 -Ddubbo.container=spring,my
 ```
 如下图 ![](/doc/img/debug.png)
+
+鼠标选中com.lsm.provider.Launcher, 右键-debug， 即可启动provider程序
