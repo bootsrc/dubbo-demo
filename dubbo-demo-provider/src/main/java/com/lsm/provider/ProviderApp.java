@@ -47,6 +47,7 @@ public class ProviderApp {
         serviceConfig.setInterface(GreetingService.class);
         serviceConfig.setRef(new GreetingServiceImpl());
         serviceConfig.setDynamic(true);
+        serviceConfig.setVersion("1.0.0");
         serviceConfig.export();
         System.out.println("===GreetingService is exported");
     }

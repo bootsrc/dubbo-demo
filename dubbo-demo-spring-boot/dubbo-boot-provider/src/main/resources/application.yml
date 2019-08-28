@@ -1,0 +1,16 @@
+spring:
+  application:
+    name: dubbo-boot-provider
+
+greeting:
+  service:
+    version: 1.0.0
+
+embedded:
+  zookeeper:
+    port: 2181
+
+dubbo:
+  registry:
+    address: zookeeper://appjishu.com:${embedded.zookeeper.port}
+    file: ${user.home}/dubbo-cache/${spring.application.name}/dubbo.cache
